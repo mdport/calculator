@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+
+   <!--- Основні запити сторінки
+   ================================================== -->
+   <title>Calculator</title>
+   <meta charset="utf-8">
+   <meta name="keywords" content="Ключові слова - до 20 слів">
+   <meta name="author" content="Мар'ян Харандзюк">
+   <meta name="copyright" content="Мар'ян Харандзюк">
+   <meta name="description" content="Front-end web developer">
+
+   <!-- Мобільна специфікація
+   ================================================== -->
+   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+   <!-- CSS і шрифт
+   ================================================== -->
+   <link rel="stylesheet" href="style.css">
+   <!-- scripts -->
+   <script src="script.js" defer></script>
+
+   <!-- Теги для соціальних мереж
+   ================================================== -->
+   <!-- Локалізація сайту, для російськомовного сайту ru_RU -->
+   <meta property="og:locale" content="uk_UA">
+   <!-- Тип контенту, за замовчуванням використовується article -->
+   <meta property="og:type" content="article">
+   <!-- Заголовок сторінки, який буде відображатися в дописі соціальної мережі -->
+   <meta property="og:title" content="Портфоліо Веб-розробника, верстальника сайтів">
+   <!-- Опис сторінки -->
+   <meta property="og:description" content="Front-end web developer">
+   <!-- Посилання на зображення, яке буде опубліковане у дописі -->
+   <meta property="og:image" content="img/1280x640.jpg">
+   <!-- Посилання на поточну сторінку -->
+   <meta property="og:url" content="https://mdport.pp.ua/">
+   <!-- Назва сайту -->
+   <meta property="og:site_name" content="Портфоліо Веб-розробника, верстальника сайтів">
+
+   <!-- Значок favicon
+    ================================================== -->
+   <link rel="icon" href="img/favicon/favicon.ico?ver=a5701" type="image/x-icon">
+
+   <!-- Колір в браузерах
+    ================================================== -->
+   <!-- Chrome, Firefox and Opera -->
+   <meta name="theme-color" content="#0a726b">
+   <!-- Windows Phone -->
+   <meta name="msaplication-navbutton-color" content="#0a726b">
+   <!-- iOS Safari -->
+   <meta name="apple-mobile-web-app-status-bar-style" content="#0a726b">
+
+</head>
+
+<body>
+
+   <div class="calculator-grid">
+      <div class="output">
+         <div data-previous-operand class="previous-operand"></div>
+         <div data-current-operand class="current-operand"></div>
+      </div>
+      <button data-all-clear class="span-two">AC</button>
+      <button data-delete>DEL</button>
+      <button data-operation>÷</button>
+      <button data-number>1</button>
+      <button data-number>2</button>
+      <button data-number>3</button>
+      <button data-operation>*</button>
+      <button data-number>4</button>
+      <button data-number>5</button>
+      <button data-number>6</button>
+      <button data-operation>+</button>
+      <button data-number>7</button>
+      <button data-number>8</button>
+      <button data-number>9</button>
+      <button data-operation>-</button>
+      <button data-number>.</button>
+      <button data-number>0</button>
+      <button data-equals class="span-two">=</button>
+   </div>
+
+</body>
+
+</html>
